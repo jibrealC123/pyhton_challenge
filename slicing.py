@@ -6,10 +6,16 @@
 msg = 'welcome to Python 101: Strings'
 
 # Print the built string using slicing
-print(msg[18], msg[0:7].title(), msg[25:29].title(), msg[8:10].title(), msg[8].title() + msg[12] + msg[2] + msg[1] + msg[25])
+print(msg[23:30].title(), msg[0:7].title(), msg[18:21], msg[11:17])
 
-# Save the built string into a variable
-result = str(msg[18]) + " " + msg[0:7].title() + " " + msg[25:29].title() + " " + msg[8:10].title() + " " + msg[8].title() + msg[12] + msg[2] + msg[1] + msg[25]
+# # Save the built string into a variable
+reseve_msg = msg[23:30].title() + " " + msg[0:7].title() + " " + msg[18:21] + " " + msg[11:17]
 
 # Print the result backwards
-print(result[::-1])
+print(reseve_msg[::-1])
+
+
+
+
+
+
