@@ -25,5 +25,5 @@ print(f"The percentage of race time spent in pits: {percentage_of_the_spent} ")
 
 # - A final message if pit time > 5% of the race: "You need a new pit crew. 🛠️"
 if percentage_of_the_spent > 5:
-    print("You need a bit crew. 🛠️ ")
+    print("You need a new pit crew. 🛠️ ")
 
