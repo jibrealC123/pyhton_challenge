@@ -13,4 +13,3 @@ reseve_msg = msg[23:30].title() + " " + msg[0:7].title() + " " + msg[18:21] + " 
 
 # Print the result backwards
 print(reseve_msg[::-1])
- 
